@@ -1,0 +1,52 @@
+// const { outputHelp } = require("commander");
+// const { set } = require("core-js/fn/dict");
+const recipeContainer = document.querySelector('.recipe');
+
+const timeout = function (s) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {
+      reject(new Error(`Request took too long! Timeout after ${s} second`));
+    }, s * 1000);
+  });
+}; // https://forkify-api.herokuapp.com/v2
+///////////////////////////////////////
+// const showRecipe = async function() {
+//     try{
+//         const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886');
+//         const data = await res.json();
+//         console.log(res, data);
+//     } catch (err) {
+//         alert(err);
+//     }
+// };
+// showRecipe()
+
+
+posts = [{
+  title: 'post 1',
+  body: 'This is post 1'
+}, {
+  title: 'post 2',
+  body: 'This is post 2'
+}];
+
+function getPosts() {
+  setTimeout(() => {
+    posts.forEach(element => {
+      console.log(`Thi is ${element.title}`);
+    });
+  }, 1000);
+}
+
+function createPost(post, callback) {
+  setTimeout(() => {
+    posts.push(post);
+    callback();
+  }, 2000);
+}
+
+getPosts();
+createPost({
+  title: 'post 3',
+  body: 'This is post 3'
+}, getPosts);
