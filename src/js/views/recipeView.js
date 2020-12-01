@@ -29,7 +29,8 @@ class RecipeView {
         this.#parentElement.insertAdjacentHTML('afterbegin', markup);
     }
 
-    #generateMarkup() {
+    #generateMarkup() {        
+        console.log(this.#data.cooking_time);
         return `
         <figure class="recipe__fig">
           <img src="${this.#data.image}" alt="${this.#data.title}" class="recipe__img" />
@@ -82,7 +83,7 @@ class RecipeView {
         <div class="recipe__ingredients">
           <h2 class="heading--2">Recipe ingredients</h2>
           <ul class="recipe__ingredient-list">
-            ${this.#data.ingredients.map(this.#generateMarkupIngredient).join('')}
+            
 
         </div>
 
@@ -121,7 +122,7 @@ class RecipeView {
                     ${ing.description}
                 </div>
             </li>
-            `;
+        `;
     }
 }
 
