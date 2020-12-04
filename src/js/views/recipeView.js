@@ -1,6 +1,5 @@
 import icons from 'url:../../img/icons.svg';
 import {Fraction} from 'fractional';
-console.log(Fraction);
 
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
@@ -65,8 +64,7 @@ class RecipeView {
         ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
     }
 
-    #generateMarkup() {        
-        console.log(this.#data.cooking_time);
+    #generateMarkup() {
         return `
         <figure class="recipe__fig">
           <img src="${this.#data.image}" alt="${this.#data.title}" class="recipe__img" />
@@ -80,7 +78,7 @@ class RecipeView {
             <svg class="recipe__info-icon">
               <use href="${icons}#icon-clock"></use>
             </svg>
-            <span class="recipe__info-data recipe__info-data--minutes">${this.#data.cooking_time}</span>
+            <span class="recipe__info-data recipe__info-data--minutes">${this.#data.cookingTime}</span>
             <span class="recipe__info-text">minutes</span>
           </div>
           <div class="recipe__info">
@@ -119,8 +117,7 @@ class RecipeView {
         <div class="recipe__ingredients">
           <h2 class="heading--2">Recipe ingredients</h2>
           <ul class="recipe__ingredient-list">
-            
-
+            ${this.#data.ingredients.map(this.#generateMarkupIngredient).join('')}
         </div>
 
         <div class="recipe__directions">
