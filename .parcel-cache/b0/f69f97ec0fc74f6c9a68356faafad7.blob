@@ -1,0 +1,16 @@
+var _parentEl = new WeakMap();
+
+class ResultsView {
+  constructor() {
+    _parentEl.set(this, {
+      writable: true,
+      value: document.querySelector('.search-results')
+    });
+  }
+
+  addHandlerResults(handler) {
+    handler();
+    return 0;
+  }
+
+}

@@ -49,8 +49,6 @@ export const loadSearchResults = async function(query) {
             };
         });
 
-        console.log(state.search.results);
-
     } catch (err) {
         console.error(`${err} *****`)
         throw err;
