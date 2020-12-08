@@ -1,0 +1,85 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _view = _interopRequireDefault(require("./view.js"));
+
+var _icons = _interopRequireDefault(require("url:../../img/icons.svg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+class PaginationView extends _view.default {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "_parentElement", document.querySelector('.pagination'));
+  }
+
+  _generateMarkup() {
+    const curPage = this._data.page;
+    const numPages = Math.ceil(this._data.results.length / this._data.resultPerPage); // Page 1, and there are other pages
+
+    if (curPage === 1 && numPages > 1) {
+      return `
+                <button class="btn--inline pagination__btn--next">
+                    <span>Page ${curPage + 1}</span>
+                    <svg class="search__icon">
+                        <use href="${_icons.default}#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            `;
+    } // Last page
+
+
+    if (curPage === numPages && numPages > 1) {
+      return `
+                <button class="btn--inline pagination__btn--prev">
+                    <svg class="search__icon">
+                        <use href="${_icons.default}#icon-arrow-left"></use>
+                    </svg>
+                    <span>Page ${curPage - 1}</span>
+                </button>
+            `;
+    } // Other page
+
+
+    if (curPage < numPages) {
+      return `
+            <button class="btn--inline pagination__btn--prev">
+                <svg class="search__icon">
+                    <use href="${_icons.default}#icon-arrow-left"></use>
+                </svg>
+                <span>Page ${curPage - 1}</span>
+            </button>
+            <button class="btn--inline pagination__btn--next">
+                <span>Page ${curPage + 1}</span>
+                <svg class="search__icon">
+                    <use href="${_icons.default}#icon-arrow-right"></use>
+                </svg>
+            </button>
+
+            `;
+    } // Page 1, and there are No other pages
+
+
+    return 'only one page';
+  }
+
+  _clickNext(callback) {
+    document.querySelector('.btn--inline pagination__btn--next').addEventListener('click', callback);
+  }
+
+  _clickPrevious(callback) {
+    document.querySelector('.btn--inline pagination__btn--prev').addEventListener('click', callback);
+  }
+
+}
+
+var _default = new PaginationView();
+
+exports.default = _default;
