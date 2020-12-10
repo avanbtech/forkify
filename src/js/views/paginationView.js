@@ -66,28 +66,6 @@ class PaginationView extends View {
         // Page 1, and there are No other pages
         return 'only one page';
     }
-
-    #generateMarkupNextButton() {
-        return `
-            <button data-goto = ${curPage + 1} class="btn--inline pagination__btn--next">
-            <span>Page ${curPage + 1}</span>
-                <svg class="search__icon">
-                    <use href="${icons}#icon-arrow-right"></use>
-                </svg>
-            </button>
-        `;
-    }
-
-    #generateMarkupPreviousButton() {
-        return `
-            <button data-goto = ${curPage - 1} class="btn--inline pagination__btn--prev">
-            <svg class="search__icon">
-                <use href="${icons}#icon-arrow-left"></use>
-            </svg>
-                <span>Page ${curPage - 1}</span>
-            </button>
-        `;
-    }
 }
 
 export default new PaginationView();

@@ -30,7 +30,7 @@
 108C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2017\ToString.js121436361000000000 0
 95C:\Users\Ava\udemy\projects\forkify\node_modules\is-typed-array\node_modules\es-abstract\es7.js121436361000000000 0
 90C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\string\virtual\repeat.js121436361000000000 0
-79C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules132499705573159450 1
+79C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules132499705573199343 1
 73C:\Users\Ava\udemy\projects\forkify\node_modules\abortcontroller-polyfill132499705595073038 1
 69C:\Users\Ava\udemy\projects\forkify\node_modules\lodash\fp\inRange.js121436361000000000 0
 108C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules\es-abstract\2018\HasProperty.js121436361000000000 0
@@ -38,7 +38,7 @@
 81C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\regexp\split.js121436361000000000 0
 79C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\stable\symbol\match.js121436361000000000 0
 95C:\Users\Ava\udemy\projects\forkify\node_modules\performance-now\test\scripts\difference.coffee131283154320000000 0
-40C:\Users\Ava\udemy\projects\forkify\dist132518680542096648 1
+40C:\Users\Ava\udemy\projects\forkify\dist132520286358675429 1
 80C:\Users\Ava\udemy\projects\forkify\node_modules\source-map-support\node_modules132499705573189370 1
 63C:\Users\Ava\udemy\projects\forkify\node_modules\lodash\pull.js121436361000000000 0
 109C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules\es-abstract\2016\ToUint8Clamp.js121436361000000000 0
@@ -65,7 +65,7 @@
 85C:\Users\Ava\udemy\projects\forkify\node_modules\resolve\test\module_dir\ymodules\aaa132499705600717946 1
 91C:\Users\Ava\udemy\projects\forkify\node_modules\caniuse-lite\data\features\currentcolor.js121436361000000000 0
 71C:\Users\Ava\udemy\projects\forkify\node_modules\word-wrap\package.json131409321610000000 0
-46C:\Users\Ava\udemy\projects\forkify\index.html132516047088168928 0
+46C:\Users\Ava\udemy\projects\forkify\index.html132519353204805924 0
 82C:\Users\Ava\udemy\projects\forkify\node_modules\@babel\runtime\helpers\esm\tdz.js121012626000000000 0
 111C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules\es-abstract\helpers\regexTester.js121436361000000000 0
 65C:\Users\Ava\udemy\projects\forkify\node_modules\request\index.js121436361000000000 0
@@ -89,7 +89,7 @@
 81C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-colormin\dist\colours.js121436361000000000 0
 132C:\Users\Ava\udemy\projects\forkify\node_modules\static-extend\node_modules\is-accessor-descriptor\node_modules\kind-of\package.json131394324680000000 0
 61C:\Users\Ava\udemy\projects\forkify\src\sass\_components.scss132495308500106922 0
-56C:\Users\Ava\udemy\projects\forkify\src\js\views\view.js132516252040691201 0
+56C:\Users\Ava\udemy\projects\forkify\src\js\views\view.js132520249412321250 0
 122C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\node_modules\postcss-selector-parser\dist\selectors\nesting.js121436361000000000 0
 70C:\Users\Ava\udemy\projects\forkify\node_modules\@babel\parser\typings132499705605076289 1
 105C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules\es-abstract\2019\TimeClip.js121436361000000000 0
@@ -290,7 +290,7 @@
 105C:\Users\Ava\udemy\projects\forkify\node_modules\object.values\node_modules\es-abstract\5\TimeFromYear.js121436361000000000 0
 88C:\Users\Ava\udemy\projects\forkify\node_modules\@parcel\core\lib\dumpGraphToGraphViz.js121436361000000000 0
 111C:\Users\Ava\udemy\projects\forkify\node_modules\is-typed-array\node_modules\es-abstract\2019\IsStringPrefix.js121436361000000000 0
-56C:\Users\Ava\udemy\projects\forkify\src\js\controller.js132518566445803665 0
+56C:\Users\Ava\udemy\projects\forkify\src\js\controller.js132520286356396818 0
 101C:\Users\Ava\udemy\projects\forkify\node_modules\string_decoder\node_modules\safe-buffer\package.json121436361000000000 0
 113C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2016\thisTimeValue.js121436361000000000 0
 89C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\symbol\pattern-match.js121436361000000000 0
@@ -301,7 +301,7 @@
 104C:\Users\Ava\udemy\projects\forkify\node_modules\object.values\node_modules\es-abstract\2018\MakeTime.js121436361000000000 0
 118C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2015\AdvanceStringIndex.js121436361000000000 0
 73C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-svgo\LICENSE-MIT121436361000000000 0
-51C:\Users\Ava\udemy\projects\forkify\src\js\model.js132518482188495122 0
+51C:\Users\Ava\udemy\projects\forkify\src\js\model.js132519492080646266 0
 110C:\Users\Ava\udemy\projects\forkify\node_modules\object.values\node_modules\es-abstract\2018\IterableToList.js121436361000000000 0
 63C:\Users\Ava\udemy\projects\forkify\node_modules\browserify-des132499705589876924 1
 48C:\Users\Ava\udemy\projects\forkify\src\js\views132516940769512294 1
@@ -331,7 +331,7 @@
 91C:\Users\Ava\udemy\projects\forkify\node_modules\highlight.js\lib\languages\actionscript.js131406724530000000 0
 66C:\Users\Ava\udemy\projects\forkify\node_modules\define-properties132499705591372925 1
 104C:\Users\Ava\udemy\projects\forkify\node_modules\react-refresh\cjs\react-refresh-babel.production.min.js121436361000000000 0
-73C:\Users\Ava\udemy\projects\forkify\node_modules\stream-http\node_modules132499705573139502 1
+73C:\Users\Ava\udemy\projects\forkify\node_modules\stream-http\node_modules132499705573179394 1
 73C:\Users\Ava\udemy\projects\forkify\node_modules\sshpk\lib\formats\pem.js131898308050000000 0
 122C:\Users\Ava\udemy\projects\forkify\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\GetIntrinsic.js121436361000000000 0
 81C:\Users\Ava\udemy\projects\forkify\node_modules\es-abstract\2015\HourFromTime.js121436361000000000 0
@@ -349,7 +349,7 @@
 104C:\Users\Ava\udemy\projects\forkify\node_modules\dom-serializer\node_modules\domelementtype\lib\index.js121436361000000000 0
 91C:\Users\Ava\udemy\projects\forkify\node_modules\class-utils\node_modules\kind-of\README.md131523517230000000 0
 73C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\es\array\from.js121436361000000000 0
-66C:\Users\Ava\udemy\projects\forkify\src\js\views\paginationView.js132518680539134228 0
+66C:\Users\Ava\udemy\projects\forkify\src\js\views\paginationView.js132518698790254164 0
 117C:\Users\Ava\udemy\projects\forkify\node_modules\jsdom\lib\jsdom\living\navigator\NavigatorConcurrentHardware-impl.js121436361000000000 0
 80C:\Users\Ava\udemy\projects\forkify\node_modules\is-accessor-descriptor\index.js131539902560000000 0
 77C:\Users\Ava\udemy\projects\forkify\node_modules\@nodelib\fs.walk\out\readers132499705596339650 1
@@ -373,7 +373,7 @@
 78C:\Users\Ava\udemy\projects\forkify\node_modules\process-nextick-args\index.js121436361000000000 0
 97C:\Users\Ava\udemy\projects\forkify\node_modules\@babel\helper-compilation-targets\lib\targets.js121012626000000000 0
 100C:\Users\Ava\udemy\projects\forkify\node_modules\@parcel\runtime-js\src\loaders\browser\js-loader.js121436361000000000 0
-62C:\Users\Ava\udemy\projects\forkify\src\js\views\recipeView.js132516059469115292 0
+62C:\Users\Ava\udemy\projects\forkify\src\js\views\recipeView.js132519499693116564 0
 89C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\symbol\to-string-tag.js121436361000000000 0
 83C:\Users\Ava\udemy\projects\forkify\node_modules\es-abstract\2020\HasOwnProperty.js121436361000000000 0
 111C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2015\HasProperty.js121436361000000000 0
@@ -392,7 +392,7 @@
 92C:\Users\Ava\udemy\projects\forkify\node_modules\@babel\helper-create-regexp-features-plugin132499705589936761 1
 104C:\Users\Ava\udemy\projects\forkify\node_modules\regenerate-unicode-properties\Script_Extensions\Thai.js121436361000000000 0
 109C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2015\SameValue.js121436361000000000 0
-63C:\Users\Ava\udemy\projects\forkify\src\js\views\resultsView.js132516055765116930 0
+63C:\Users\Ava\udemy\projects\forkify\src\js\views\resultsView.js132520254151085805 0
 138C:\Users\Ava\udemy\projects\forkify\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\helpers\getSymbolDescription.js121436361000000000 0
 84C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-convert-values\CHANGELOG.md121436361000000000 0
 95C:\Users\Ava\udemy\projects\forkify\node_modules\regenerate-unicode-properties\Script\Lydian.js121436361000000000 0
@@ -4465,7 +4465,7 @@
 73C:\Users\Ava\udemy\projects\forkify\node_modules\is-typed-array\README.md121436361000000000 0
 65C:\Users\Ava\udemy\projects\forkify\node_modules\abab\lib\btoa.js121436361000000000 0
 73C:\Users\Ava\udemy\projects\forkify\node_modules\argparse\lib\argparse.js130686249500000000 0
-67C:\Users\Ava\udemy\projects\forkify\node_modules\uncss\node_modules132499705573189370 1
+67C:\Users\Ava\udemy\projects\forkify\node_modules\uncss\node_modules132499705573249213 1
 73C:\Users\Ava\udemy\projects\forkify\node_modules\cssom\lib\CSSHostRule.js121436361000000000 0
 113C:\Users\Ava\udemy\projects\forkify\node_modules\which-typed-array\node_modules\es-abstract\2015\IteratorClose.js121436361000000000 0
 69C:\Users\Ava\udemy\projects\forkify\node_modules\lodash\_baseSlice.js121436361000000000 0
@@ -4881,7 +4881,7 @@
 95C:\Users\Ava\udemy\projects\forkify\node_modules\csso\node_modules\css-tree\lib\parser\index.js121436361000000000 0
 92C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\reflect\define-metadata.js121436361000000000 0
 109C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-modules-values\node_modules\postcss\lib\postcss.d.ts121436361000000000 0
-76C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules132499705573149464 1
+76C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\node_modules132499705573189370 1
 83C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\es\typed-array\iterator.js121436361000000000 0
 76C:\Users\Ava\udemy\projects\forkify\node_modules\util.promisify\package.json121436361000000000 0
 70C:\Users\Ava\udemy\projects\forkify\node_modules\object.assign\auto.js121436361000000000 0
@@ -6796,7 +6796,7 @@
 71C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\LICENSE-MIT121436361000000000 0
 120C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\node_modules\postcss-selector-parser\dist\selectors\index.js121436361000000000 0
 77C:\Users\Ava\udemy\projects\forkify\node_modules\performance-now\package.json131319881030000000 0
-72C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\node_modules132499705573149464 1
+72C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\node_modules132499705573189370 1
 69C:\Users\Ava\udemy\projects\forkify\node_modules\stylehacks\README.md121436361000000000 0
 130C:\Users\Ava\udemy\projects\forkify\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\2019\thisNumberValue.js121436361000000000 0
 110C:\Users\Ava\udemy\projects\forkify\node_modules\parse5\lib\extensions\position-tracking\preprocessor-mixin.js121436361000000000 0
@@ -7224,7 +7224,7 @@
 79C:\Users\Ava\udemy\projects\forkify\node_modules\process-nextick-args\readme.md121436361000000000 0
 63C:\Users\Ava\udemy\projects\forkify\node_modules\split2\LICENSE121436361000000000 0
 88C:\Users\Ava\udemy\projects\forkify\node_modules\es-abstract\2015\OrdinaryHasProperty.js121436361000000000 0
-68C:\Users\Ava\udemy\projects\forkify\node_modules\split2\node_modules132499705573139502 1
+68C:\Users\Ava\udemy\projects\forkify\node_modules\split2\node_modules132499705573179394 1
 84C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\es\string\virtual\strike.js121436361000000000 0
 68C:\Users\Ava\udemy\projects\forkify\node_modules\split2\package.json121436361000000000 0
 108C:\Users\Ava\udemy\projects\forkify\node_modules\regenerate-unicode-properties\Script_Extensions\Ethiopic.js121436361000000000 0
@@ -7433,7 +7433,7 @@
 93C:\Users\Ava\udemy\projects\forkify\node_modules\snapdragon\node_modules\debug\.coveralls.yml131419593830000000 0
 71C:\Users\Ava\udemy\projects\forkify\node_modules\lodash\fp\dropRight.js121436361000000000 0
 58C:\Users\Ava\udemy\projects\forkify\node_modules\debug\src132499705589468015 1
-67C:\Users\Ava\udemy\projects\forkify\dist\controller.eb7cdde0.js.map132518680542096648 0
+67C:\Users\Ava\udemy\projects\forkify\dist\controller.eb7cdde0.js.map132520286358675429 0
 118C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-modules-extract-imports\node_modules\source-map\source-map.js131508414070000000 0
 70C:\Users\Ava\udemy\projects\forkify\node_modules\request\lib\tunnel.js121436361000000000 0
 121C:\Users\Ava\udemy\projects\forkify\node_modules\is-typed-array\node_modules\es-abstract\2019\StrictEqualityComparison.js121436361000000000 0
@@ -9664,7 +9664,7 @@
 85C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-discard-duplicates\README.md121436361000000000 0
 78C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-discard-comments\dist132499705589847007 1
 85C:\Users\Ava\udemy\projects\forkify\node_modules\postcss-discard-comments\LICENSE-MIT121436361000000000 0
-58C:\Users\Ava\udemy\projects\forkify\dist\logo.a737347a.png132518680541704230 0
+58C:\Users\Ava\udemy\projects\forkify\dist\logo.a737347a.png132520286358276492 0
 123C:\Users\Ava\udemy\projects\forkify\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\5\SecFromTime.js121436361000000000 0
 97C:\Users\Ava\udemy\projects\forkify\node_modules\jsdom\lib\jsdom\living\file-api\FileList-impl.js121436361000000000 0
 89C:\Users\Ava\udemy\projects\forkify\node_modules\dom-serializer\node_modules\entities\lib132499705595133006 1
@@ -16146,7 +16146,7 @@
 67C:\Users\Ava\udemy\projects\forkify\node_modules\cssom\lib\index.js121436361000000000 0
 73C:\Users\Ava\udemy\projects\forkify\node_modules\cssom\lib\MatcherList.js121436361000000000 0
 67C:\Users\Ava\udemy\projects\forkify\node_modules\cssom\lib\parse.js121436361000000000 0
-66C:\Users\Ava\udemy\projects\forkify\node_modules\csso\node_modules132499705573189370 1
+66C:\Users\Ava\udemy\projects\forkify\node_modules\csso\node_modules132499705573249213 1
 66C:\Users\Ava\udemy\projects\forkify\node_modules\csso\package.json121436361000000000 0
 63C:\Users\Ava\udemy\projects\forkify\node_modules\csso\README.md121436361000000000 0
 83C:\Users\Ava\udemy\projects\forkify\node_modules\@babel\plugin-transform-typescript132499705590784502 1
@@ -17152,7 +17152,7 @@
 79C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\math\expm1.js121436361000000000 0
 87C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\symbol\unscopables.js121436361000000000 0
 82C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\string\anchor.js121436361000000000 0
-51C:\Users\Ava\udemy\projects\forkify\dist\index.html132518680541694205 0
+51C:\Users\Ava\udemy\projects\forkify\dist\index.html132520286358276492 0
 80C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\string\bold.js121436361000000000 0
 87C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\string\code-points.js121436361000000000 0
 84C:\Users\Ava\udemy\projects\forkify\node_modules\core-js\features\string\fontsize.js121436361000000000 0
@@ -20233,8 +20233,8 @@
 62C:\Users\Ava\udemy\projects\forkify\node_modules\.bin\uuid.cmd132499705621925549 0
 62C:\Users\Ava\udemy\projects\forkify\node_modules\.bin\uuid.ps1132499705621925549 0
 63C:\Users\Ava\udemy\projects\forkify\node_modules\.bin\which.cmd132499705621925549 0
-63C:\Users\Ava\udemy\projects\forkify\dist\controller.eb7cdde0.js132518680542076829 0
-61C:\Users\Ava\udemy\projects\forkify\dist\favicon.21cde035.png132518680541694205 0
-59C:\Users\Ava\udemy\projects\forkify\dist\icons.e640073f.svg132518680541694205 0
-58C:\Users\Ava\udemy\projects\forkify\dist\main.23d26685.css132518680541694205 0
-62C:\Users\Ava\udemy\projects\forkify\dist\main.23d26685.css.map132518680541724114 0
+63C:\Users\Ava\udemy\projects\forkify\dist\controller.eb7cdde0.js132520286358655490 0
+61C:\Users\Ava\udemy\projects\forkify\dist\favicon.21cde035.png132520286358276492 0
+59C:\Users\Ava\udemy\projects\forkify\dist\icons.e640073f.svg132520286358286553 0
+58C:\Users\Ava\udemy\projects\forkify\dist\main.23d26685.css132520286358276492 0
+62C:\Users\Ava\udemy\projects\forkify\dist\main.23d26685.css.map132520286358326390 0
