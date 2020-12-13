@@ -437,11 +437,6 @@ module.exports.resolve = resolve;
 },{}],"175e469a7ea7db1c8c0744d04372621f":[function(require,module,exports) {
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.uploadRecipe = void 0;
-
 require("core-js/modules/es.typed-array.float32-array");
 
 require("core-js/modules/es.typed-array.float64-array");
@@ -573,7 +568,7 @@ const controlBookarks = function () {
 };
 
 const controlAddRecipe = function (newRecipe) {
-  console.log(newRecipe); // Upload new recipe data
+  console.log(newRecipe);
 };
 
 const init = function () {
@@ -597,10 +592,6 @@ init();
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
-
-const uploadRecipe = async function () {};
-
-exports.uploadRecipe = uploadRecipe;
 },{"core-js/modules/es.typed-array.float32-array":"d5ed5e3a2e200dcf66c948e6350ae29c","core-js/modules/es.typed-array.float64-array":"49914eeba57759547672886c5961b9e4","core-js/modules/es.typed-array.int8-array":"1fc9d0d9e9c4ca72873ee75cc9532911","core-js/modules/es.typed-array.int16-array":"6ba53210946e69387b5af65ca70f5602","core-js/modules/es.typed-array.int32-array":"52f07ad61480c3da8b1b371346f2b755","core-js/modules/es.typed-array.uint8-array":"6042ea91f038c74624be740ff17090b9","core-js/modules/es.typed-array.uint8-clamped-array":"47e53ff27a819e98075783d2516842bf","core-js/modules/es.typed-array.uint16-array":"20f511ab1a5fbdd3a99ff1f471adbc30","core-js/modules/es.typed-array.uint32-array":"8212db3659c5fe8bebc2163b12c9f547","core-js/modules/es.typed-array.from":"183d72778e0f99cedb12a04e35ea2d50","core-js/modules/es.typed-array.of":"2ee3ec99d0b3dea4fec9002159200789","core-js/modules/web.immediate":"140df4f8e97a45c53c66fead1f5a9e92","core-js/modules/web.url":"a66c25e402880ea6b966ee8ece30b6df","core-js/modules/web.url.to-json":"6357c5a053a36e38c0e24243e550dd86","core-js/modules/web.url-search-params":"2494aebefd4ca447de0ef4cfdd47509e","./model.js":"aabf248f40f7693ef84a0cb99f385d1f","./views/recipeView.js":"bcae1aced0301b01ccacb3e6f7dfede8","./views/searchView.js":"c5d792f7cac03ef65de30cc0fbb2cae7","./views/resultsView.js":"eacdbc0d50ee3d2819f3ee59366c2773","regenerator-runtime":"e155e0d3930b156f86c48e8d05522b16","./views/paginationView.js":"d2063f3e7de2e4cdacfcb5eb6479db05","./views/bookmarksView.js":"7ed9311e216aa789713f70ebeec3ed40","./views/addrecipeView.js":"ff3540c9b8cfc63e9f3e3a7b04a1990b"}],"d5ed5e3a2e200dcf66c948e6350ae29c":[function(require,module,exports) {
 var createTypedArrayConstructor = require('../internals/typed-array-constructor');
 
@@ -7071,14 +7062,6 @@ class AddRecipeView extends _view.default {
     this._btnClose.addEventListener('click', this.toggleWindow.bind(this));
 
     this._overlay.addEventListener('click', this.toggleWindow.bind(this));
-  }
-
-  addHandlerUpload(handler) {
-    this._parentElement.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const data = [...new FormData(this)];
-      handler(data);
-    });
   }
 
   _generateMarkup() {}
