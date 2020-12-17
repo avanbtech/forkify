@@ -1,4 +1,5 @@
 import * as model from './model.js';
+import { MODEL_CLOSE_SEC } from './config.js';
 import recipeView from './views/recipeView.js';
 import searchview from './views/searchView.js';
 import resultsView from './views/resultsView.js';
@@ -78,6 +79,9 @@ const controlServings = function(newServings) {
 }
 
 const controlAddBookmark = function () {
+    // show loading spinner
+    addRecipeView.renderSpinner();
+
     // Add or remove bookmark
     if(!model.state.recipe.bookmarked) model.addBookmark(model.state.recipe);
     else model.deleteBookmark(model.state.recipe.id);
@@ -97,6 +101,25 @@ const controlAddRecipe = async function (newRecipe) {
     try {
         // Upload new recipe data
         await model.uploadRecipe(newRecipe);
+        console.log(model.state.recipe);
+
+        // Render recipe
+        recipeView.render(model.state.recipe);
+
+        // Display success message
+        addRecipeView.renderMessage();
+
+        // Render bookmark view
+        bookmarksView.render(model.state.bookmarks);
+
+        // Change id in URL
+        window.history.pushState(null, '', `#${model.state.recipe.id}`);
+
+        // Close form window
+        setTimeout(function () {
+            addRecipeView.toggleWindow();
+        }, MODEL_CLOSE_SEC * 1000);
+
     } catch (err) {
         addRecipeView.renderError(err.message);
     }
