@@ -1,0 +1,16 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.KEY = exports.RES_PER_PAGE = exports.TIMEOUT_SEC = exports.API_URL = void 0;
+const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes';
+exports.API_URL = API_URL;
+const TIMEOUT_SEC = 10;
+exports.TIMEOUT_SEC = TIMEOUT_SEC;
+const RES_PER_PAGE = 10; //export const KEY = 'a11032e6-ab23-488b-bf0b-e395825ed352';
+//export const KEY = '2e1f8388-b5e2-4418-bf65-d866f7e08162';
+
+exports.RES_PER_PAGE = RES_PER_PAGE;
+const KEY = '30043435-a5ef-4498-8c77-b3b226026559';
+exports.KEY = KEY;
