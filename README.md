@@ -1,7 +1,7 @@
 # forkify
 
 Forkify is a website that helps users to search foods with their recipes.
-
+https://forkify-ava.netlify.app
 
 
 ## Technologies and user stories:
